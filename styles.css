@@ -1,0 +1,112 @@
+body {
+    text-align: center;
+    background: url('https://i.ibb.co/Q74Gk6nr/7227dd6e560f9a13045a33fe1e537aaa.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+}
+
+.flower {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #b91d47;
+    font-size: 24px;
+    margin-bottom: 20px;
+    background: #ffe6ea;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.yes-btn {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+.no-btn {
+    background-color: #e74c3c;
+    color: white;
+    font-weight: bold;
+}
+
+.love-container {
+    display: none;
+    margin-top: 50px;
+}
+
+.big-flower {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.love-message {
+    font-size: 24px;
+    color: white;
+    background-color: #b91d47;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.cute-animation {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* زر إعادة التشغيل */
+.restart-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.restart-btn:hover {
+    background-color: #d81b60;
+}
